@@ -22,12 +22,16 @@ class Package extends Files
     /**
      * Generate
      * @param  string $folder path where to put archive
+     * @param  bool $deletePreviousArchives remove older archives and md5
      * @return [type]         [description]
      */
-    public function make($folder)
+    public function make($folder, $deletePreviousArchives = false)
     {
         $archive = $this->makeArchive($folder);
         $this->makeMD5($archive);
+        if ($deletePreviousArchives) {
+            $this->deletePreviousArchives($archive);
+        }
 
         return $archive;
     }
@@ -47,6 +51,7 @@ class Package extends Files
         $filename = $this->defineFilename($folder);
 
         $clonePath = $this->gitRepo->clone();
+        $this->addComposerDependencies($clonePath);
         $this->zip($clonePath, $folder . $filename, $this->name);
         //Supprime les fichiers temporaires
         $this->delete($clonePath);
@@ -82,5 +87,37 @@ class Package extends Files
             $this->filename = basename($filename);
         }
         return $this->filename;
+    }
+
+    private function addComposerDependencies($folder)
+    {
+        $output = '';
+        //TODO: check if composer is installed on server
+        $composercmd = '/usr/local/bin/composer';
+        if (file_exists($folder.'/composer.json')) {
+            //
+            exec($composercmd.' install --no-dev -optimize-autoloader --working-dir '.$folder, $output);
+
+        }
+        return $output;
+    }
+
+    private function deletePreviousArchives($archive)
+    {
+        // get the latest archive number
+        preg_match_all('/.*-(\d*).zip$/', $archive, $matches);
+        var_dump($matches);
+        $filename = $matches[1][0];
+        $i = intval($matches[2][0]) -1;
+        // remove all the older archives
+        for ($i = intval($matches) -1; $i>0; $i-- ) {
+          if (file_exists($filename.'-'.$i.'.zip')) {
+              unlink($filename.'-'.$i.'.zip');
+          }
+          if (file_exists($filename.'-'.$i.'.md5')) {
+              unlink($filename.'-'.$i.'.md5');
+          }
+        }
+        return;
     }
 }

@@ -54,7 +54,7 @@ class GitRepo extends Files
         //escapeshellarg(
         $command = 'git ' . $command;
         exec($command, $output, $returnValue);
-
+        echo $command."\r\n".$output[0];
         if ($returnValue !== 0) {
             throw new \RuntimeException(implode("\r\n", $output));
         }

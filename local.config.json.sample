@@ -1,5 +1,7 @@
 {
     "config-address": "https://raw.githubusercontent.com/YesWiki/yeswiki-config-repo/master/repo.config.json",
     "repo-path": "/var/www/html/repository",
-    "mail-to": "change.my@mail.net"
+    "mail-to": "change.my@mail.net",
+    "composer-link": "/usr/local/bin/composer",
+    "delete-previous-archive": true
 }

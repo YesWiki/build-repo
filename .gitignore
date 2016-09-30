@@ -1,1 +1,4 @@
+local.config.json
+composer.lock
 /vendor/
+.DS_Store
