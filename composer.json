@@ -1,23 +1,17 @@
 {
-  "name": "yeswiki/build-repo",
-  "description": "Génère le dépot YesWiki",
-  "license": "GPL3",
-  "authors": [
-    {
-      "name": "Florian Schmitt",
-      "email": "mrflos@lilo.org"
+    "name": "yeswiki/yeswiki-build-repo",
+    "description": "Packager of YesWiki extensions and themes.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "require": {
+        "phpmd/phpmd": "^2.9.0"
     },
-    {
-      "name": "Florestan Bredow",
-      "email": "florestan.bredow@supagro.fr"
+    "scripts": {
+      "test": "phpmd . text ruleset.xml --exclude vendor/*,yeswiki-extension-test/* --suffixes php"
+    },
+    "autoload": {
+      "psr-4": {
+        "YesWikiRepo\\": "app/"
+      }
     }
-  ],
-  "require": {
-    "daiko/php-files": "dev-master"
-  },
-  "autoload": {
-    "psr-4": {
-      "YesWikiRepo\\": "app"
-    }
-  }
 }

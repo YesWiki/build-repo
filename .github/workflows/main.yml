@@ -1,0 +1,35 @@
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test this Action
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Self-test
+      run: |
+        composer install
+        composer test
+
+    - name: Package a dummy extension
+      uses: ./
+      id: package
+      with:
+        extension-dir: /github/workspace/yeswiki-extension-test
+
+    - name: Get the test extension md5sum
+      run: echo "md5sum is ${{ steps.package.outputs.md5sum }}"
+    - name: Get the test extension archive-name
+      run: echo "archive-name is ${{ steps.package.outputs.archive-name }}"
+
+  docker-release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build and push
+      run: |
+        echo ${{ secrets.GCR_PAT }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
+        docker build -t yeswiki-build-repo .
+        docker tag yeswiki-build-repo ghcr.io/oncletom/yeswiki-build-repo:latest
+        docker push ghcr.io/oncletom/yeswiki-build-repo:latest
