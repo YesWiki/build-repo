@@ -1,0 +1,14 @@
+{
+    "yeswiki-bachibouzouk": {
+        "repository": "https:\/\/github.com\/YesWiki\/yeswiki",
+        "archive": "https:\/\/github.com\/YesWiki\/yeswiki\/archive\/bachibouzouk.zip",
+        "branch": "bachibouzouk",
+        "documentation": "https:\/\/yeswiki.net\/?DocumentatioN",
+        "description": "",
+        "extra-tools": [],
+        "extra-themes": [],
+        "md5SourceArchive": "e94b0775011f46504d16a0d9d6b8c9f4",
+        "version": "2016-03-25-1",
+        "file": "yeswiki-bachibouzouk-2016-03-25-1.zip"
+    }
+}
