@@ -22,9 +22,9 @@
         "branch": "master",
         "documentation": "https:\/\/github.com\/YesWiki\/yeswiki-extension-lms\/blob\/master\/README.md",
         "description": "Permet d'utiliser YesWiki comme une plateforme d'apprentissage (LMS : Learning Management System)",
-        "md5SourceArchive": "ed7a44897d02ade01d7b7c310b9635b1",
-        "version": "2020-11-03-1",
-        "file": "extension-lms-2020-11-03-1.zip"
+        "md5SourceArchive": "d41d8cd98f00b204e9800998ecf8427e",
+        "version": "1970-01-01-1",
+        "file": "extension-lms-1970-01-01-1.zip"
     },
     "extension-webhooks": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-webhooks",
@@ -92,9 +92,9 @@
         "branch": "master",
         "documentation": "https:\/\/yeswiki.net\/?DocumentationExtensionLoginLdap",
         "description": "Remplace l'authentification de YesWiki par celle d'un annuaire LDAP",
-        "md5SourceArchive": "e0091b892df202dd8ee850b279c4569b",
-        "version": "2017-09-18-1",
-        "file": "extension-loginldap-2017-09-18-1.zip"
+        "md5SourceArchive": "a9c2a4e7b2f0a22b49fdc33afc927afb",
+        "version": "2020-11-06-1",
+        "file": "extension-loginldap-2020-11-06-1.zip"
     },
     "extension-login-cas": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-login-cas",
@@ -212,9 +212,9 @@
         "branch": "master",
         "documentation": "https:\/\/yeswiki.net\/?DocumentationThemeMargot",
         "description": "Th\u00e8me par d\u00e9faut pour Doriphore, configurable par des variables CSS",
-        "md5SourceArchive": "943efc9ee0ec94543bd1ec85db70ea10",
-        "version": "2020-11-01-1",
-        "file": "theme-margot-2020-11-01-1.zip"
+        "md5SourceArchive": "fabd330a744580923dca5689d99ffc6b",
+        "version": "2020-11-06-1",
+        "file": "theme-margot-2020-11-06-1.zip"
     },
     "theme-pactecivique": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-theme-pactecivique",

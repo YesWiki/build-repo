@@ -77,9 +77,9 @@
         "branch": "master",
         "documentation": "https:\/\/github.com\/YesWiki\/yeswiki-extension-loginldap\/blob\/master\/README.md",
         "description": "Remplace l'authentification de YesWiki par celle d'un annuaire LDAP",
-        "md5SourceArchive": "e0091b892df202dd8ee850b279c4569b",
-        "version": "2017-09-18-1",
-        "file": "extension-loginldap-2017-09-18-1.zip"
+        "md5SourceArchive": "a9c2a4e7b2f0a22b49fdc33afc927afb",
+        "version": "2020-11-06-1",
+        "file": "extension-loginldap-2020-11-06-1.zip"
     },
     "extension-login-cas": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-login-cas",
@@ -187,9 +187,9 @@
         "branch": "master",
         "documentation": "https:\/\/yeswiki.net\/?DocumentationThemeMargot",
         "description": "Th\u00e8me par d\u00e9faut pour Doriphore, configurable par des variables CSS",
-        "md5SourceArchive": "943efc9ee0ec94543bd1ec85db70ea10",
-        "version": "2020-11-01-1",
-        "file": "theme-margot-2020-11-01-1.zip"
+        "md5SourceArchive": "fabd330a744580923dca5689d99ffc6b",
+        "version": "2020-11-06-1",
+        "file": "theme-margot-2020-11-06-1.zip"
     },
     "theme-pactecivique": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-theme-pactecivique",
