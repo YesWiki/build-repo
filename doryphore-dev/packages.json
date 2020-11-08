@@ -7,9 +7,9 @@
         "description": "",
         "extra-tools": [],
         "extra-themes": [],
-        "md5SourceArchive": "125e703b1481eb8cbbeb9c249272598e",
-        "version": "2020-11-06-1",
-        "file": "yeswiki-doryphore-dev-2020-11-06-1.zip"
+        "md5SourceArchive": "217d7ba5e1b1811f0725c5ed4b137e68",
+        "version": "2020-11-07-1",
+        "file": "yeswiki-doryphore-dev-2020-11-07-1.zip"
     },
     "extension-lms": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-lms",
