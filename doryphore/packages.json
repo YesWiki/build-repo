@@ -12,9 +12,9 @@
                 "branch": "master"
             }
         },
-        "md5SourceArchive": "d0e2453632b67c22a120bae1c9491865",
-        "version": "2020-10-23-1",
-        "file": "yeswiki-doryphore-2020-10-23-1.zip"
+        "md5SourceArchive": "a5ea94d2e1c0ed56b66c525be91b26eb",
+        "version": "2020-11-08-1",
+        "file": "yeswiki-doryphore-2020-11-08-1.zip"
     },
     "extension-lms": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-lms",
@@ -22,9 +22,9 @@
         "branch": "master",
         "documentation": "https:\/\/github.com\/YesWiki\/yeswiki-extension-lms\/blob\/master\/README.md",
         "description": "Permet d'utiliser YesWiki comme une plateforme d'apprentissage (LMS : Learning Management System)",
-        "md5SourceArchive": "d41d8cd98f00b204e9800998ecf8427e",
-        "version": "1970-01-01-1",
-        "file": "extension-lms-1970-01-01-1.zip"
+        "md5SourceArchive": "25f6779fd0c02f8ab317d9a79b743094",
+        "version": "2020-11-08-1",
+        "file": "extension-lms-2020-11-08-1.zip"
     },
     "extension-webhooks": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-webhooks",
