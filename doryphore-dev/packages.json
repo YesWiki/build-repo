@@ -17,9 +17,9 @@
         "branch": "doryphore",
         "documentation": "https:\/\/github.com\/YesWiki\/yeswiki-extension-lms\/blob\/master\/README.md",
         "description": "Permet d'utiliser YesWiki comme une plateforme d'apprentissage (LMS : Learning Management System)",
-        "md5SourceArchive": "5afdfadd52edd85afc1ad0abe0f96441",
-        "version": "2020-11-05-1",
-        "file": "extension-lms-2020-11-05-1.zip"
+        "md5SourceArchive": "0cd431d26deb1d70e31150af6860f978",
+        "version": "2020-11-09-1",
+        "file": "extension-lms-2020-11-09-1.zip"
     },
     "extension-webhooks": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-webhooks",
