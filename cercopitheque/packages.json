@@ -47,9 +47,9 @@
         "branch": "master",
         "documentation": "https:\/\/github.com\/YesWiki\/yeswiki-extension-ferme\/blob\/master\/README.md",
         "description": "G\u00e9rer une ferme \u00e0 wikis a partir d'un formulaire bazar",
-        "md5SourceArchive": "7c218e87f23ac71974414a03bdd8a6f6",
-        "version": "2020-10-16-1",
-        "file": "extension-ferme-2020-10-16-1.zip"
+        "md5SourceArchive": "91bbd79d28bf95c5ee92d2fcdd46f298",
+        "version": "2020-11-17-1",
+        "file": "extension-ferme-2020-11-17-1.zip"
     },
     "extension-googledrive": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-googledrive",
