@@ -12,9 +12,9 @@
                 "branch": "master"
             }
         },
-        "md5SourceArchive": "e21bfee83f00eb1c8cadeb5b931b92c7",
-        "version": "2020-11-17-1",
-        "file": "yeswiki-doryphore-2020-11-17-1.zip"
+        "md5SourceArchive": "01aaace3bb6f3b4aaec80b9052507d75",
+        "version": "2020-11-19-1",
+        "file": "yeswiki-doryphore-2020-11-19-1.zip"
     },
     "extension-lms": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-lms",
