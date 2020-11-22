@@ -12,9 +12,9 @@
                 "branch": "master"
             }
         },
-        "md5SourceArchive": "98fa850bb3a101895ac1b90c3fff6699",
-        "version": "2020-11-20-1",
-        "file": "yeswiki-doryphore-2020-11-20-1.zip"
+        "md5SourceArchive": "11577dde32651a17a299c7a3d75e9f5c",
+        "version": "2020-11-21-1",
+        "file": "yeswiki-doryphore-2020-11-21-1.zip"
     },
     "extension-lms": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-extension-lms",
@@ -212,9 +212,9 @@
         "branch": "master",
         "documentation": "https:\/\/yeswiki.net\/?DocumentationThemeMargot",
         "description": "Th\u00e8me par d\u00e9faut pour Doriphore, configurable par des variables CSS",
-        "md5SourceArchive": "fabd330a744580923dca5689d99ffc6b",
-        "version": "2020-11-06-1",
-        "file": "theme-margot-2020-11-06-1.zip"
+        "md5SourceArchive": "4fc3373a47ed61f1660ac5ec052217c8",
+        "version": "2020-11-21-1",
+        "file": "theme-margot-2020-11-21-1.zip"
     },
     "theme-pactecivique": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki-theme-pactecivique",
