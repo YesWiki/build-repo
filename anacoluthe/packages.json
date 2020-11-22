@@ -1,14 +1,11 @@
 {
     "yeswiki-anacoluthe": {
         "repository": "https:\/\/github.com\/YesWiki\/yeswiki",
-        "archive": "https:\/\/github.com\/YesWiki\/yeswiki\/archive\/anacoluthe.zip",
         "branch": "anacoluthe",
+        "tag": "",
         "documentation": "https:\/\/yeswiki.net\/?DocumentatioN",
         "description": "",
-        "extra-tools": [],
-        "extra-themes": [],
-        "md5SourceArchive": "72e53ab321c90112f9f12ddb680c3950",
-        "version": "2012-10-22-1",
-        "file": "yeswiki-anacoluthe-2012-10-22-1.zip"
+        "version": "%cs-0",
+        "file": "yeswiki-anacoluthe-%cs-%cs-0.zip"
     }
 }
